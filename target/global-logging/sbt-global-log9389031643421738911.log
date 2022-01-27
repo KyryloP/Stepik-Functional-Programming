@@ -1,0 +1,12 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/}fibonacci-memoization/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/}fibonacci-memoization/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/"), "fibonacci-memoization") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/"), "fibonacci-memoization") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\target\scala-2.12\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\target\scala-2.12\test-classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 2 s, completed 20 окт. 2021 г., 20:11:19
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

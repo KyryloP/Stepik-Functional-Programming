@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/}group-words/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/}group-words/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/"), "group-words") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/"), "group-words") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 22 окт. 2021 г., 17:59:03
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/}zip-a-word/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/}zip-a-word/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/"), "zip-a-word") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/"), "zip-a-word") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 21 окт. 2021 г., 23:52:38
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

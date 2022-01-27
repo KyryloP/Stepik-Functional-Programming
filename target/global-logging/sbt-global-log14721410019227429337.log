@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/}factorial-recursion/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/}factorial-recursion/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/"), "factorial-recursion") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/"), "factorial-recursion") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 29 сент. 2021 г., 11:58:51
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

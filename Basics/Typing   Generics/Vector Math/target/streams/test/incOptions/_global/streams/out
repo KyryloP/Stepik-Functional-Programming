@@ -1,0 +1,10 @@
+[debug] Created transactional ClassFileManager with tempDir = D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\target\scala-2.12\test-classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	Vector2$.class
+[debug] 	TestSpecVector.class
+[debug] 	Vector3$.class
+[debug] 	Vector3.class
+[debug] 	Vector2.class
+[debug] Removing the temporary directory used for backing up class files: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\target\scala-2.12\test-classes.bak

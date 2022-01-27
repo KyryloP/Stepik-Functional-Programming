@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/}zip-a-word/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/}zip-a-word/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/"), "zip-a-word") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/"), "zip-a-word") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\target\scala-2.12\classes ...
+[info] done compiling
+[success] Total time: 1 s, completed 20 окт. 2021 г., 19:43:07
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

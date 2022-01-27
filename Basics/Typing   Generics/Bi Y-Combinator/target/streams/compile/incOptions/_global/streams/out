@@ -1,0 +1,11 @@
+[debug] Created transactional ClassFileManager with tempDir = D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] 	BiYCombinator$.class
+[debug] 	BiYCombinator.class
+[debug] We backup class files:
+[debug] 	BiYCombinator$.class
+[debug] 	BiYCombinator.class
+[debug] Registering generated classes:
+[debug] 	BiYCombinator$.class
+[debug] 	BiYCombinator.class
+[debug] Removing the temporary directory used for backing up class files: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\target\scala-2.12\classes.bak

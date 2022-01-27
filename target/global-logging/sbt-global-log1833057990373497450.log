@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/}purity-check/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/}purity-check/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/"), "purity-check") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/"), "purity-check") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 1 s, completed 4 окт. 2021 г., 10:20:39
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

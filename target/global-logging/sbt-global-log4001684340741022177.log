@@ -1,0 +1,11 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/}flatting-strings/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/}flatting-strings/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/"), "flatting-strings") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/"), "flatting-strings") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\target\scala-2.12\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\target\scala-2.12\test-classes ...
+[info] done compiling
+[success] Total time: 6 s, completed 15 окт. 2021 г., 14:40:42
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,4 @@
+[error] D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\src\ZipWordTask.scala:5:11: not found: value mkString
+[error]     l.map(mkString)
+[error]           ^
+[error] one error found

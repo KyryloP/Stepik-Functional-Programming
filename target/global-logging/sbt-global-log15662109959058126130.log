@@ -1,0 +1,12 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/}bi-y-combinator/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/}bi-y-combinator/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/"), "bi-y-combinator") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/"), "bi-y-combinator") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\target\scala-2.12\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\target\scala-2.12\test-classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 1 s, completed 23 янв. 2022 г., 15:29:04
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

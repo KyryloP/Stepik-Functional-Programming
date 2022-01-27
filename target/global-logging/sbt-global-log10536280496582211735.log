@@ -1,0 +1,14 @@
+[debug] > Exec(all {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/}vector-math/products {file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/}vector-math/test:products, None, None)
+[debug] Evaluating tasks: ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/"), "vector-math") / Compile / products, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/"), "vector-math") / Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.12. Compiling...
+[info]   Compilation completed in 21.207s.
+[info] done compiling
+[info] compiling 1 Scala source to D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\target\scala-2.12\test-classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 31 s, completed 24 янв. 2022 г., 11:40:05
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

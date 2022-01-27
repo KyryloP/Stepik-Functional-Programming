@@ -1,0 +1,4 @@
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Check%20Prime%20Number/project/"), "check-prime-number-build")...
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug] Done updating ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Check%20Prime%20Number/project/"), "check-prime-number-build")

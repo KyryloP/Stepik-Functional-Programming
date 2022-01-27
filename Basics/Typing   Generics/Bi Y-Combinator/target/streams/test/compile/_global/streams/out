@@ -1,0 +1,10 @@
+[error] D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\test\TestSpecYCombinator.scala:7:22: wrong number of type parameters for method fix: [A, B](bifnFactory: (A => B) => (A => B))A => B
+[error] 		val factorial = fix[Long, Int, Long](
+[error] 		                   ^
+[error] D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\test\TestSpecYCombinator.scala:8:25: missing parameter type
+[error]           factorial => (state, n) =>
+[error]                         ^
+[error] D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\test\TestSpecYCombinator.scala:8:32: missing parameter type
+[error]           factorial => (state, n) =>
+[error]                                ^
+[error] three errors found

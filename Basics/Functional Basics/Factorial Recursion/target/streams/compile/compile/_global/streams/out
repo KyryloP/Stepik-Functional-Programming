@@ -1,0 +1,6 @@
+[error] D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion\src\FactorialTask.scala:6:5: type mismatch;
+[error]  found   : (Int, Int) => Long
+[error]  required: Int => Long
+[error]     fac
+[error]     ^
+[error] one error found

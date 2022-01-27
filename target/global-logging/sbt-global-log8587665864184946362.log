@@ -1,0 +1,1279 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\prykh\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\prykh\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Oracle Corporation Java 11.0.12)
+[debug]       Load.loadUnit: plugins took 128.8208ms
+[debug]       Load.loadUnit: defsScala took 0.4548ms
+[debug] [Loading] Scanning directory C:\Users\prykh\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\prykh\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.2227 ms
+[debug]           Load.resolveProject(global-plugins) took 52.9784ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\prykh\.sbt\1.0\plugins, plugins: List(<none>))) took 110.2067ms
+[debug] [Loading] Done in C:\Users\prykh\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 133.4898ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3848ms
+[debug]     Load.loadUnit(file:/C:/Users/prykh/.sbt/1.0/plugins/, ...) took 275.1172ms
+[debug]   Load.apply: load took 463.5486ms
+[debug]   Load.apply: resolveProjects took 8.8731ms
+[debug]   Load.apply: finalTransforms took 86.5582ms
+[debug]   Load.apply: config.delegates took 11.1464ms
+[debug]   Load.apply: Def.make(settings)... took 577.8493ms
+[debug]   Load.apply: structureIndex took 145.6706ms
+[debug]   Load.apply: mkStreams took 3.0157ms
+[info] loading global plugins from C:\Users\prykh\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3574.7563ms
+[debug]           Load.loadUnit: plugins took 30.7178ms
+[debug]           Load.loadUnit: defsScala took 0.0087ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\project
+[debug]             Load.loadUnit: mkEval took 5.7143ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.3209 ms
+[info] loading settings for project stepik-build from idea1.sbt ...
+[debug]               Load.resolveProject(stepik-build) took 6.5086ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id stepik-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\project, plugins: List(<none>))) took 9.548ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\project, returning: (stepik-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 141.4947ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.1524ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/project/, ...) took 177.4905ms
+[debug]       Load.apply: load took 178.6311ms
+[debug]       Load.apply: resolveProjects took 0.1053ms
+[debug]       Load.apply: finalTransforms took 9.3882ms
+[debug]       Load.apply: config.delegates took 0.5682ms
+[debug]       Load.apply: Def.make(settings)... took 118.6255ms
+[debug]       Load.apply: structureIndex took 31.9104ms
+[debug]       Load.apply: mkStreams took 0.0037ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 681.4229ms
+[debug]     Load.loadUnit: defsScala took 0.0064ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik
+[debug]       Load.loadUnit: mkEval took 0.3611ms
+[debug] [Loading] Found root project FunctionProgrammingForStreaming w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 4.0816 ms
+[info] loading settings for project FunctionProgrammingForStreaming from build.sbt ...
+[debug]         Load.resolveProject(FunctionProgrammingForStreaming) took 43.0808ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id FunctionProgrammingForStreaming, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik, aggregate: List(ProjectRef(./Advanced/Parallel%20%20%20Async/Image%20Filtrering,image-filtrering), ProjectRef(./Advanced/Parallel%20%20%20Async/Wiki%20Integration,wiki-integration), ProjectRef(./Basics/Functional%20Basics/Check%20Prime%20Number,check-prime-number), ProjectRef(./Basics/Functional%20Basics/Factorial%20Recursion,factorial-recursion), ProjectRef(./Basics/Functional%20Basics/Fibonacci%20Recursion,fibonacci-recursion), ProjectRef(./Basics/Functional%20Basics/Fibonacci%20Tail%20Recursion,fibonacci-tail-recursion), ProjectRef(./Basics/Functional%20Basics/Purity%20Check,purity-check), ProjectRef(./Basics/Monads%20%20%20Collections/Fibonacci%20Memoization,fibonacci-memoization), ProjectRef(./Basics/Monads%20%20%20Collections/FizzBuzz,fizzbuzz), ProjectRef(./Basics/Monads%20%20%20Collections/Flatting%20Strings,flatting-strings), ProjectRef(./Basics/Monads%20%20%20Collections/Group%20Words,group-words), ProjectRef(./Basics/Monads%20%20%20Collections/Map%20Sequence,map-sequence), ProjectRef(./Basics/Monads%20%20%20Collections/Take%20Words,take-words), ProjectRef(./Basics/Monads%20%20%20Collections/Zip%20A%20Word,zip-a-word), ProjectRef(./Basics/Typing%20%20%20Generics/Bi%20Y-Combinator,bi-y-combinator), ProjectRef(./Basics/Typing%20%20%20Generics/Vector%20Math,vector-math)), plugins: List(<none>))) took 49.8154ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik, returning: (FunctionProgrammingForStreaming)
+[debug]     Load.loadUnit: loadedProjectsRaw took 142.2006ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.2796ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/, ...) took 828.0168ms
+[debug]           Load.loadUnit: plugins took 30.0644ms
+[debug]           Load.loadUnit: defsScala took 0.005ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering\project
+[debug]             Load.loadUnit: mkEval took 0.2791ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.5531 ms
+[info] loading settings for project image-filtrering-build from idea1.sbt ...
+[debug]               Load.resolveProject(image-filtrering-build) took 9.9396ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id image-filtrering-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering\project, plugins: List(<none>))) took 13.1251ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering\project, returning: (image-filtrering-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 36.7591ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.0016ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Image%20Filtrering/project/, ...) took 68.9633ms
+[debug]       Load.apply: load took 70.5004ms
+[debug]       Load.apply: resolveProjects took 0.2027ms
+[debug]       Load.apply: finalTransforms took 11.8715ms
+[debug]       Load.apply: config.delegates took 0.4911ms
+[debug]       Load.apply: Def.make(settings)... took 100.2805ms
+[debug]       Load.apply: structureIndex took 39.4608ms
+[debug]       Load.apply: mkStreams took 0.0034ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 429.6679ms
+[debug]     Load.loadUnit: defsScala took 0.0041ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering
+[debug]       Load.loadUnit: mkEval took 0.4717ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.0989 ms
+[info] loading settings for project image-filtrering from build.sbt ...
+[debug]         Load.resolveProject(image-filtrering) took 2.7243ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id image-filtrering, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering, plugins: List(<none>))) took 5.6032ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Image Filtrering, returning: (image-filtrering)
+[debug]     Load.loadUnit: loadedProjectsRaw took 65.8987ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.5383ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Image%20Filtrering/, ...) took 499.34ms
+[debug]           Load.loadUnit: plugins took 36.5215ms
+[debug]           Load.loadUnit: defsScala took 0.0063ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration\project
+[debug]             Load.loadUnit: mkEval took 0.3467ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2749 ms
+[info] loading settings for project wiki-integration-build from idea1.sbt ...
+[debug]               Load.resolveProject(wiki-integration-build) took 2.2209ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id wiki-integration-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration\project, plugins: List(<none>))) took 5.4243ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration\project, returning: (wiki-integration-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 33.5558ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.7529ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Wiki%20Integration/project/, ...) took 73.3501ms
+[debug]       Load.apply: load took 75.0685ms
+[debug]       Load.apply: resolveProjects took 0.1923ms
+[debug]       Load.apply: finalTransforms took 12.9188ms
+[debug]       Load.apply: config.delegates took 0.532ms
+[debug]       Load.apply: Def.make(settings)... took 79.3694ms
+[debug]       Load.apply: structureIndex took 27.3385ms
+[debug]       Load.apply: mkStreams took 0.0032ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 403.9391ms
+[debug]     Load.loadUnit: defsScala took 0.0055ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration
+[debug]       Load.loadUnit: mkEval took 0.3696ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.6184 ms
+[info] loading settings for project wiki-integration from build.sbt ...
+[debug]         Load.resolveProject(wiki-integration) took 3.5811ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id wiki-integration, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration, plugins: List(<none>))) took 6.8828ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Advanced\Parallel   Async\Wiki Integration, returning: (wiki-integration)
+[debug]     Load.loadUnit: loadedProjectsRaw took 112.152ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.0929ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Wiki%20Integration/, ...) took 520.3595ms
+[debug]           Load.loadUnit: plugins took 27.9472ms
+[debug]           Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number\project
+[debug]             Load.loadUnit: mkEval took 0.4063ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.7502 ms
+[info] loading settings for project check-prime-number-build from idea1.sbt ...
+[debug]               Load.resolveProject(check-prime-number-build) took 2.0179ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id check-prime-number-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number\project, plugins: List(<none>))) took 4.3042ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number\project, returning: (check-prime-number-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 26.9198ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.9118ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Check%20Prime%20Number/project/, ...) took 57.8607ms
+[debug]       Load.apply: load took 59.7519ms
+[debug]       Load.apply: resolveProjects took 0.1939ms
+[debug]       Load.apply: finalTransforms took 8.8078ms
+[debug]       Load.apply: config.delegates took 0.4518ms
+[debug]       Load.apply: Def.make(settings)... took 72.7833ms
+[debug]       Load.apply: structureIndex took 26.3061ms
+[debug]       Load.apply: mkStreams took 0.004ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 370.0261ms
+[debug]     Load.loadUnit: defsScala took 0.0067ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number
+[debug]       Load.loadUnit: mkEval took 0.3881ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.7867 ms
+[info] loading settings for project check-prime-number from build.sbt ...
+[debug]         Load.resolveProject(check-prime-number) took 2.3921ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id check-prime-number, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number, plugins: List(<none>))) took 5.9893ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Check Prime Number, returning: (check-prime-number)
+[debug]     Load.loadUnit: loadedProjectsRaw took 67.8426ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0687ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Check%20Prime%20Number/, ...) took 441.3252ms
+[debug]           Load.loadUnit: plugins took 26.3015ms
+[debug]           Load.loadUnit: defsScala took 0.0041ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion\project
+[debug]             Load.loadUnit: mkEval took 0.2659ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6814 ms
+[info] loading settings for project factorial-recursion-build from idea1.sbt ...
+[debug]               Load.resolveProject(factorial-recursion-build) took 1.9382ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id factorial-recursion-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion\project, plugins: List(<none>))) took 4.2438ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion\project, returning: (factorial-recursion-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 32.2283ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.7459ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/project/, ...) took 61.2716ms
+[debug]       Load.apply: load took 63.0569ms
+[debug]       Load.apply: resolveProjects took 0.1654ms
+[debug]       Load.apply: finalTransforms took 15.9095ms
+[debug]       Load.apply: config.delegates took 1.3992ms
+[debug]       Load.apply: Def.make(settings)... took 73.8876ms
+[debug]       Load.apply: structureIndex took 27.0504ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 333.9726ms
+[debug]     Load.loadUnit: defsScala took 0.0049ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion
+[debug]       Load.loadUnit: mkEval took 0.2714ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.5771 ms
+[info] loading settings for project factorial-recursion from build.sbt ...
+[debug]         Load.resolveProject(factorial-recursion) took 1.817ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id factorial-recursion, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion, plugins: List(<none>))) took 3.9025ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Factorial Recursion, returning: (factorial-recursion)
+[debug]     Load.loadUnit: loadedProjectsRaw took 53.1995ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9096ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/, ...) took 390.1956ms
+[debug]           Load.loadUnit: plugins took 29.81ms
+[debug]           Load.loadUnit: defsScala took 0.0067ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion\project
+[debug]             Load.loadUnit: mkEval took 0.2904ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9411 ms
+[info] loading settings for project fibonacci-recursion-build from idea1.sbt ...
+[debug]               Load.resolveProject(fibonacci-recursion-build) took 1.35ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id fibonacci-recursion-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion\project, plugins: List(<none>))) took 2.7201ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion\project, returning: (fibonacci-recursion-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 21.515ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.1858ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Recursion/project/, ...) took 53.5182ms
+[debug]       Load.apply: load took 54.769ms
+[debug]       Load.apply: resolveProjects took 0.1451ms
+[debug]       Load.apply: finalTransforms took 9.6186ms
+[debug]       Load.apply: config.delegates took 0.423ms
+[debug]       Load.apply: Def.make(settings)... took 55.7198ms
+[debug]       Load.apply: structureIndex took 22.3823ms
+[debug]       Load.apply: mkStreams took 0.0033ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 301.2229ms
+[debug]     Load.loadUnit: defsScala took 0.0071ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion
+[debug]       Load.loadUnit: mkEval took 0.2731ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.5381 ms
+[info] loading settings for project fibonacci-recursion from build.sbt ...
+[debug]         Load.resolveProject(fibonacci-recursion) took 1.8761ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id fibonacci-recursion, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion, plugins: List(<none>))) took 4.0124ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Recursion, returning: (fibonacci-recursion)
+[debug]     Load.loadUnit: loadedProjectsRaw took 66.2003ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.3744ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Recursion/, ...) took 370.885ms
+[debug]           Load.loadUnit: plugins took 28.0473ms
+[debug]           Load.loadUnit: defsScala took 0.0048ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion\project
+[debug]             Load.loadUnit: mkEval took 0.3629ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2584 ms
+[info] loading settings for project fibonacci-tail-recursion-build from idea1.sbt ...
+[debug]               Load.resolveProject(fibonacci-tail-recursion-build) took 9.6558ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id fibonacci-tail-recursion-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion\project, plugins: List(<none>))) took 11.5362ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion\project, returning: (fibonacci-tail-recursion-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 35.325ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.795ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Tail%20Recursion/project/, ...) took 66.2795ms
+[debug]       Load.apply: load took 67.8694ms
+[debug]       Load.apply: resolveProjects took 0.1053ms
+[debug]       Load.apply: finalTransforms took 9.1682ms
+[debug]       Load.apply: config.delegates took 0.2891ms
+[debug]       Load.apply: Def.make(settings)... took 56.2029ms
+[debug]       Load.apply: structureIndex took 20.7833ms
+[debug]       Load.apply: mkStreams took 0.0041ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 310.528ms
+[debug]     Load.loadUnit: defsScala took 0.0051ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion
+[debug]       Load.loadUnit: mkEval took 0.3089ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.4709 ms
+[info] loading settings for project fibonacci-tail-recursion from build.sbt ...
+[debug]         Load.resolveProject(fibonacci-tail-recursion) took 1.6957ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id fibonacci-tail-recursion, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion, plugins: List(<none>))) took 3.592ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion, returning: (fibonacci-tail-recursion)
+[debug]     Load.loadUnit: loadedProjectsRaw took 67.7584ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.5041ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Tail%20Recursion/, ...) took 380.9278ms
+[debug]           Load.loadUnit: plugins took 45.1344ms
+[debug]           Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check\project
+[debug]             Load.loadUnit: mkEval took 0.2033ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2527 ms
+[info] loading settings for project purity-check-build from idea1.sbt ...
+[debug]               Load.resolveProject(purity-check-build) took 1.5706ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id purity-check-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check\project, plugins: List(<none>))) took 3.2376ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check\project, returning: (purity-check-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 19.6729ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.2911ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/project/, ...) took 66.921ms
+[debug]       Load.apply: load took 68.0868ms
+[debug]       Load.apply: resolveProjects took 0.087ms
+[debug]       Load.apply: finalTransforms took 5.4314ms
+[debug]       Load.apply: config.delegates took 0.2458ms
+[debug]       Load.apply: Def.make(settings)... took 55.7782ms
+[debug]       Load.apply: structureIndex took 18.0209ms
+[debug]       Load.apply: mkStreams took 0.0039ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 301.1839ms
+[debug]     Load.loadUnit: defsScala took 0.0076ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check
+[debug]       Load.loadUnit: mkEval took 1.1014ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 0.8412 ms
+[info] loading settings for project purity-check from build.sbt ...
+[debug]         Load.resolveProject(purity-check) took 2.0346ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id purity-check, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check, plugins: List(<none>))) took 3.2804ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Purity Check, returning: (purity-check)
+[debug]     Load.loadUnit: loadedProjectsRaw took 49.2984ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.6672ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/, ...) took 353.2081ms
+[debug]           Load.loadUnit: plugins took 21.9975ms
+[debug]           Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\project
+[debug]             Load.loadUnit: mkEval took 0.2181ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.7855 ms
+[info] loading settings for project fibonacci-memoization-build from idea1.sbt ...
+[debug]               Load.resolveProject(fibonacci-memoization-build) took 1.2915ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id fibonacci-memoization-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\project, plugins: List(<none>))) took 2.4505ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\project, returning: (fibonacci-memoization-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 22.2449ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.3086ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/project/, ...) took 46.2299ms
+[debug]       Load.apply: load took 47.2948ms
+[debug]       Load.apply: resolveProjects took 0.1425ms
+[debug]       Load.apply: finalTransforms took 7.939ms
+[debug]       Load.apply: config.delegates took 0.398ms
+[debug]       Load.apply: Def.make(settings)... took 57.7276ms
+[debug]       Load.apply: structureIndex took 21.7741ms
+[debug]       Load.apply: mkStreams took 0.0042ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 300.6408ms
+[debug]     Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization
+[debug]       Load.loadUnit: mkEval took 0.2211ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 0.7487 ms
+[info] loading settings for project fibonacci-memoization from build.sbt ...
+[debug]         Load.resolveProject(fibonacci-memoization) took 1.1187ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id fibonacci-memoization, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization, plugins: List(<none>))) took 2.3242ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Fibonacci Memoization, returning: (fibonacci-memoization)
+[debug]     Load.loadUnit: loadedProjectsRaw took 40.2551ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.0957ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/, ...) took 342.7968ms
+[debug]           Load.loadUnit: plugins took 21.1867ms
+[debug]           Load.loadUnit: defsScala took 0.0061ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz\project
+[debug]             Load.loadUnit: mkEval took 0.1868ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.8066 ms
+[info] loading settings for project fizzbuzz-build from idea1.sbt ...
+[debug]               Load.resolveProject(fizzbuzz-build) took 0.9953ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id fizzbuzz-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz\project, plugins: List(<none>))) took 2.1239ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz\project, returning: (fizzbuzz-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 18.4755ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.8348ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/FizzBuzz/project/, ...) took 41.1562ms
+[debug]       Load.apply: load took 42.0228ms
+[debug]       Load.apply: resolveProjects took 0.082ms
+[debug]       Load.apply: finalTransforms took 5.9006ms
+[debug]       Load.apply: config.delegates took 0.2535ms
+[debug]       Load.apply: Def.make(settings)... took 49.6254ms
+[debug]       Load.apply: structureIndex took 16.6892ms
+[debug]       Load.apply: mkStreams took 0.0033ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 259.105ms
+[debug]     Load.loadUnit: defsScala took 0.0071ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz
+[debug]       Load.loadUnit: mkEval took 0.3716ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.003 ms
+[info] loading settings for project fizzbuzz from build.sbt ...
+[debug]         Load.resolveProject(fizzbuzz) took 1.6771ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id fizzbuzz, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz, plugins: List(<none>))) took 3.0614ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\FizzBuzz, returning: (fizzbuzz)
+[debug]     Load.loadUnit: loadedProjectsRaw took 57.3576ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1314ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/FizzBuzz/, ...) took 319.4873ms
+[debug]           Load.loadUnit: plugins took 25.8103ms
+[debug]           Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\project
+[debug]             Load.loadUnit: mkEval took 0.2138ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5248 ms
+[info] loading settings for project flatting-strings-build from idea1.sbt ...
+[debug]               Load.resolveProject(flatting-strings-build) took 1.28ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id flatting-strings-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\project, plugins: List(<none>))) took 2.1142ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\project, returning: (flatting-strings-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 19.9686ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.5439ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/project/, ...) took 48.2725ms
+[debug]       Load.apply: load took 49.9008ms
+[debug]       Load.apply: resolveProjects took 0.1477ms
+[debug]       Load.apply: finalTransforms took 5.2826ms
+[debug]       Load.apply: config.delegates took 0.2873ms
+[debug]       Load.apply: Def.make(settings)... took 71.3186ms
+[debug]       Load.apply: structureIndex took 18.1059ms
+[debug]       Load.apply: mkStreams took 0.0033ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 290.6868ms
+[debug]     Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings
+[debug]       Load.loadUnit: mkEval took 0.2615ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.5502 ms
+[info] loading settings for project flatting-strings from build.sbt ...
+[debug]         Load.resolveProject(flatting-strings) took 2.5978ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id flatting-strings, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings, plugins: List(<none>))) took 4.7601ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Flatting Strings, returning: (flatting-strings)
+[debug]     Load.loadUnit: loadedProjectsRaw took 57.9301ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.6586ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/, ...) took 351.216ms
+[debug]           Load.loadUnit: plugins took 32.8277ms
+[debug]           Load.loadUnit: defsScala took 0.0051ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words\project
+[debug]             Load.loadUnit: mkEval took 0.2782ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.8866 ms
+[info] loading settings for project group-words-build from idea1.sbt ...
+[debug]               Load.resolveProject(group-words-build) took 1.4301ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id group-words-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words\project, plugins: List(<none>))) took 2.6712ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words\project, returning: (group-words-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 20.0283ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.4677ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/project/, ...) took 55.0916ms
+[debug]       Load.apply: load took 56.1987ms
+[debug]       Load.apply: resolveProjects took 0.0875ms
+[debug]       Load.apply: finalTransforms took 7.2649ms
+[debug]       Load.apply: config.delegates took 0.2801ms
+[debug]       Load.apply: Def.make(settings)... took 49.5419ms
+[debug]       Load.apply: structureIndex took 16.3259ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 296.8598ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words
+[debug]       Load.loadUnit: mkEval took 0.2908ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.6424 ms
+[info] loading settings for project group-words from build.sbt ...
+[debug]         Load.resolveProject(group-words) took 1.5552ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id group-words, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words, plugins: List(<none>))) took 3.6639ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Group Words, returning: (group-words)
+[debug]     Load.loadUnit: loadedProjectsRaw took 62.5349ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.5042ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/, ...) took 361.544ms
+[debug]           Load.loadUnit: plugins took 25.0599ms
+[debug]           Load.loadUnit: defsScala took 0.0041ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence\project
+[debug]             Load.loadUnit: mkEval took 0.2227ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2509 ms
+[info] loading settings for project map-sequence-build from idea1.sbt ...
+[debug]               Load.resolveProject(map-sequence-build) took 5.9859ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id map-sequence-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence\project, plugins: List(<none>))) took 7.7326ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence\project, returning: (map-sequence-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 31.0446ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.0271ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Map%20Sequence/project/, ...) took 57.823ms
+[debug]       Load.apply: load took 58.758ms
+[debug]       Load.apply: resolveProjects took 0.0768ms
+[debug]       Load.apply: finalTransforms took 6.6347ms
+[debug]       Load.apply: config.delegates took 0.2701ms
+[debug]       Load.apply: Def.make(settings)... took 58.715ms
+[debug]       Load.apply: structureIndex took 18.8072ms
+[debug]       Load.apply: mkStreams took 0.0036ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 292.9322ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence
+[debug]       Load.loadUnit: mkEval took 0.2883ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 0.9431 ms
+[info] loading settings for project map-sequence from build.sbt ...
+[debug]         Load.resolveProject(map-sequence) took 1.0489ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id map-sequence, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence, plugins: List(<none>))) took 2.3044ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Map Sequence, returning: (map-sequence)
+[debug]     Load.loadUnit: loadedProjectsRaw took 46.1087ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.0657ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Map%20Sequence/, ...) took 340.6545ms
+[debug]           Load.loadUnit: plugins took 19.2243ms
+[debug]           Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words\project
+[debug]             Load.loadUnit: mkEval took 0.2084ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6798 ms
+[info] loading settings for project take-words-build from idea1.sbt ...
+[debug]               Load.resolveProject(take-words-build) took 1.1316ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id take-words-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words\project, plugins: List(<none>))) took 2.0885ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words\project, returning: (take-words-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 24.3634ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.383ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Take%20Words/project/, ...) took 45.4806ms
+[debug]       Load.apply: load took 46.3426ms
+[debug]       Load.apply: resolveProjects took 0.0743ms
+[debug]       Load.apply: finalTransforms took 5.2803ms
+[debug]       Load.apply: config.delegates took 0.2488ms
+[debug]       Load.apply: Def.make(settings)... took 61.5786ms
+[debug]       Load.apply: structureIndex took 13.517ms
+[debug]       Load.apply: mkStreams took 0.0045ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 257.4418ms
+[debug]     Load.loadUnit: defsScala took 0.0057ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words
+[debug]       Load.loadUnit: mkEval took 0.3076ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.0641 ms
+[info] loading settings for project take-words from build.sbt ...
+[debug]         Load.resolveProject(take-words) took 1.9288ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id take-words, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words, plugins: List(<none>))) took 3.4813ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Take Words, returning: (take-words)
+[debug]     Load.loadUnit: loadedProjectsRaw took 63.2934ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.6661ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Take%20Words/, ...) took 324.0534ms
+[debug]           Load.loadUnit: plugins took 32.0862ms
+[debug]           Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\project
+[debug]             Load.loadUnit: mkEval took 0.2058ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5639 ms
+[info] loading settings for project zip-a-word-build from idea1.sbt ...
+[debug]               Load.resolveProject(zip-a-word-build) took 0.8146ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zip-a-word-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\project, plugins: List(<none>))) took 1.6148ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\project, returning: (zip-a-word-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 17.3642ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.7301ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/project/, ...) took 50.8198ms
+[debug]       Load.apply: load took 51.8061ms
+[debug]       Load.apply: resolveProjects took 0.0682ms
+[debug]       Load.apply: finalTransforms took 3.9092ms
+[debug]       Load.apply: config.delegates took 0.2292ms
+[debug]       Load.apply: Def.make(settings)... took 40.9707ms
+[debug]       Load.apply: structureIndex took 13.8918ms
+[debug]       Load.apply: mkStreams took 0.0032ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 282.0077ms
+[debug]     Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word
+[debug]       Load.loadUnit: mkEval took 0.261ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.0976 ms
+[info] loading settings for project zip-a-word from build.sbt ...
+[debug]         Load.resolveProject(zip-a-word) took 1.48ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zip-a-word, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word, plugins: List(<none>))) took 2.9423ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Monads   Collections\Zip A Word, returning: (zip-a-word)
+[debug]     Load.loadUnit: loadedProjectsRaw took 43.7401ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.6641ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/, ...) took 328.342ms
+[debug]           Load.loadUnit: plugins took 21.4387ms
+[debug]           Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\project
+[debug]             Load.loadUnit: mkEval took 0.2527ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5343 ms
+[info] loading settings for project bi-y-combinator-build from idea1.sbt ...
+[debug]               Load.resolveProject(bi-y-combinator-build) took 0.842ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id bi-y-combinator-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\project, plugins: List(<none>))) took 1.5568ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\project, returning: (bi-y-combinator-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 17.6021ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.7151ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/project/, ...) took 40.5221ms
+[debug]       Load.apply: load took 42.1608ms
+[debug]       Load.apply: resolveProjects took 0.0653ms
+[debug]       Load.apply: finalTransforms took 4.0825ms
+[debug]       Load.apply: config.delegates took 0.176ms
+[debug]       Load.apply: Def.make(settings)... took 53.4632ms
+[debug]       Load.apply: structureIndex took 13.3742ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 228.2653ms
+[debug]     Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator
+[debug]       Load.loadUnit: mkEval took 0.2502ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.2453 ms
+[info] loading settings for project bi-y-combinator from build.sbt ...
+[debug]         Load.resolveProject(bi-y-combinator) took 1.9951ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id bi-y-combinator, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator, plugins: List(<none>))) took 3.6913ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Bi Y-Combinator, returning: (bi-y-combinator)
+[debug]     Load.loadUnit: loadedProjectsRaw took 62.9325ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.4892ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/, ...) took 294.4281ms
+[debug]           Load.loadUnit: plugins took 35.3077ms
+[debug]           Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\project
+[debug]             Load.loadUnit: mkEval took 0.2152ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.7259 ms
+[info] loading settings for project vector-math-build from idea1.sbt ...
+[debug]               Load.resolveProject(vector-math-build) took 1.7491ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id vector-math-build, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\project, plugins: List(<none>))) took 2.8296ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\project, returning: (vector-math-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 24.244ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.2766ms
+[debug]         Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/project/, ...) took 61.4933ms
+[debug]       Load.apply: load took 62.6145ms
+[debug]       Load.apply: resolveProjects took 0.0976ms
+[debug]       Load.apply: finalTransforms took 5.2782ms
+[debug]       Load.apply: config.delegates took 0.216ms
+[debug]       Load.apply: Def.make(settings)... took 52.0945ms
+[debug]       Load.apply: structureIndex took 13.6375ms
+[debug]       Load.apply: mkStreams took 0.0028ms
+[info] loading project definition from D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 267.0038ms
+[debug]     Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math
+[debug]       Load.loadUnit: mkEval took 0.2033ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.1421 ms
+[info] loading settings for project vector-math from build.sbt ...
+[debug]         Load.resolveProject(vector-math) took 4.4821ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id vector-math, base: D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math, plugins: List(<none>))) took 6.0452ms
+[debug] [Loading] Done in D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Typing   Generics\Vector Math, returning: (vector-math)
+[debug]     Load.loadUnit: loadedProjectsRaw took 89.4053ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.4065ms
+[debug]   Load.loadUnit(file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/, ...) took 359.787ms
+[debug] Load.apply: load took 6833.002ms
+[debug] Load.apply: resolveProjects took 1.7328ms
+[debug] Load.apply: finalTransforms took 128.8695ms
+[debug] Load.apply: config.delegates took 1.8396ms
+[info] resolving key references (17619 settings) ...
+[debug] Load.apply: Def.make(settings)... took 757.493ms
+[debug] Load.apply: structureIndex took 488.848ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to FunctionProgrammingForStreaming (in build file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 55800 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 55800, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Image%20Filtrering/"), "image-filtrering") / Compile / compile and 31 others.
+[info] 	Run `last` for details.
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Image%20Filtrering/"), "image-filtrering") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Image%20Filtrering/"), "image-filtrering") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Wiki%20Integration/"), "wiki-integration") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Advanced/Parallel%20%20%20Async/Wiki%20Integration/"), "wiki-integration") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Check%20Prime%20Number/"), "check-prime-number") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Check%20Prime%20Number/"), "check-prime-number") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/"), "factorial-recursion") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Factorial%20Recursion/"), "factorial-recursion") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Recursion/"), "fibonacci-recursion") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Recursion/"), "fibonacci-recursion") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Tail%20Recursion/"), "fibonacci-tail-recursion") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Fibonacci%20Tail%20Recursion/"), "fibonacci-tail-recursion") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/"), "purity-check") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Functional%20Basics/Purity%20Check/"), "purity-check") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/"), "fibonacci-memoization") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Fibonacci%20Memoization/"), "fibonacci-memoization") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/FizzBuzz/"), "fizzbuzz") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/FizzBuzz/"), "fizzbuzz") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/"), "flatting-strings") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Flatting%20Strings/"), "flatting-strings") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/"), "group-words") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Group%20Words/"), "group-words") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Map%20Sequence/"), "map-sequence") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Map%20Sequence/"), "map-sequence") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Take%20Words/"), "take-words") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Take%20Words/"), "take-words") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/"), "zip-a-word") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Monads%20%20%20Collections/Zip%20A%20Word/"), "zip-a-word") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/"), "bi-y-combinator") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Bi%20Y-Combinator/"), "bi-y-combinator") / Test / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/"), "vector-math") / Compile / compile
+[debug] 	ProjectRef(uri("file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/Basics/Typing%20%20%20Generics/Vector%20Math/"), "vector-math") / Test / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to FunctionProgrammingForStreaming (in build file:/D:/MyCourses/UCU/FunctionalProgramming/Stepik/)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,6 @@
+[error] D:\MyCourses\UCU\FunctionalProgramming\Stepik\Basics\Functional Basics\Fibonacci Tail Recursion\test\TailFibonacciTaskTestSpec.scala:28:53: type mismatch;
+[error]  found   : Int => Long
+[error]  required: Int => Int
+[error]       assertFibImpl(TailFibonacciTask.fibonacciImpl2(), depth)
+[error]                                                     ^
+[error] one error found
